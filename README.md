@@ -1,4 +1,4 @@
-# Document Automation Demo: SQL Server + Word Mail Merge
+# Document Automation Demo: SSMS + Word Mail Merge
 
 ## Project Overview
 This project demonstrates exactly how to translate SQL data into automated documents — pulling live data from SQL Server and merging it into Word templates.
