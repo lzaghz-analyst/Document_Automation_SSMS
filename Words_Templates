@@ -1,1 +1,70 @@
-*Late Payment Letter*
+## Word Template Example (Late Payment Letter)
+
+Below is the exact template I created in Word. The `«...»` fields are Word merge fields that map to SQL columns.
+
+
+[Date]
+
+«FirstName» «LastName»
+«Address»
+«City» «PostalCode»
+
+RE: Invoice «InvoiceNumber» - Payment Overdue
+
+Dear «FirstName»,
+
+Our records show that invoice «InvoiceNumber» for RM«AmountDue» was due on «DueDate» and remains unpaid.
+
+Please make payment within 7 days to avoid late fees.
+
+If you have already made the payment, please disregard this notice.
+
+Thank you for your prompt attention.
+
+Sincerely,
+Accounts Department
+
+
+### Invoice Template
+NVOICE
+
+Invoice #: «InvoiceNumber»
+Date: «Date»
+
+Bill To:
+«FirstName» «LastName»
+«Address»
+«City» «PostalCode»
+
+Description Amount
+Invoice «InvoiceNumber» RM«AmountDue»
+
+Total Due: RM«AmountDue»
+
+Due Date: «DueDate»
+
+Please remit payment to:
+Maybank Account: 1234 5678 9012
+
+
+
+
+### Friendly Reminder Template
+
+REMINDER NOTICE
+
+Dear «FirstName»,
+
+This is a friendly reminder that invoice «InvoiceNumber» for RM«AmountDue» was due on «DueDate».
+
+Current outstanding balance: RM«AmountDue»
+
+Please settle your payment within 3 business days.
+
+If you have already made the payment, please ignore this message.
+
+Thank you for your cooperation.
+
+Best regards,
+Billing Team
+
