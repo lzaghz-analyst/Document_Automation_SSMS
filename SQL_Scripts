@@ -1,0 +1,23 @@
+USE DocumentAutomationDemo
+GO
+SELECT * FROM Customers;
+
+SELECT * FROM Invoices;
+
+
+SELECT
+	FirstName,
+	LastName,
+	Email,
+	Address,
+	City,
+	PostalCode,
+	InvoiceNumber,
+	AmountDue,
+	DueDate
+FROM Customers C
+INNER JOIN
+	Invoices i ON C.CustomerID = i.CustomerID
+WHERE i.isPaid = 0
+ORDER BY DueDate ASC;
+			
