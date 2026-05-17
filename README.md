@@ -19,8 +19,8 @@ This project demonstrates exactly how to translate SQL data into automated docum
 |------|-------------|
 | `SQL_Scripts/` | SQL queries to create tables and extract data |
 | `Word_Templates/` | LatePaymentLetter.docx, Invoice.docx, Reminder.docx |
-| `Sample_Output/` | Generated documents from mail merge |
-| `Screenshots/` | Proof of working process |
+| `Words_Templates_Output/` | Generated documents from mail merge |
+| `Output in SSMS_DataAutomation/` | Proof of working process |
 
 ## Sample SQL Query
 ```sql
