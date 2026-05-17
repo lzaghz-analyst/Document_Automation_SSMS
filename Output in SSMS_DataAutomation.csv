@@ -1,0 +1,5 @@
+﻿FirstName,LastName,Email,Address,City,PostalCode,InvoiceNumber,AmountDue,DueDate,Date
+Siti,Rahman,siti.rahman@email.com,45 Jalan SS15,Subang Jaya,47500,INV-1003,1200,10/5/2025,17/5/2026
+John,Smith,john.smith@email.com,123 Main St,Shah Alam,40000,INV-1001,500,15/5/2025,17/5/2026
+John,Smith,john.smith@email.com,123 Main St,Shah Alam,40000,INV-1002,250,20/5/2025,17/5/2026
+Ahmed,Khan,ahmed.khan@email.com,78 Bukit Bintang,Kuala Lumpur,55100,INV-1005,300,25/5/2025,17/5/2026
